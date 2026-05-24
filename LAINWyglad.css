@@ -1,0 +1,51 @@
+body{
+    background-image: url(LAINBackground.png);
+    background-size: cover;
+    font-family: Jersey10, serif;
+    h1 {
+        text-align: center;
+        padding: 70px;
+        color: #0fde00;
+        font-size: 200px;
+        margin-bottom: 0px;
+        text-shadow:0 0 17px #0fde00;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 0px;
+        input{
+            width: 400px;
+            height: 50px;
+            font-family: Jersey10, serif;
+            font-size: 50px;
+        }
+    }
+    h3 {
+        color:#0fde00;
+        font-size: 40px;
+        text-align: center;
+        text-shadow:0 0 3px #0fde00;
+        
+        border: 3px solid;
+        border-color:aliceblue;
+        background-color: black;
+        height: 300px;
+        width: 600px;
+        margin: 90 auto;
+        align-content: center;
+    }
+    h4 {
+        text-align: left;
+        margin-top: -15px;
+        margin-bottom: 0px;
+        background-image: url(LebenTechnologiesLogo.png);
+        background-size: 140px;
+        width: 143px;
+        height: 55px;
+    }
+
+}
+@font-face {
+    font-family: Jersey10;
+    src: url(Jersey10-Regular.ttf);
+}
