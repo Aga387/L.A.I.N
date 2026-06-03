@@ -13,12 +13,6 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "edmund james kelly"||haslo === "eddie"){
         odpowiedz.textContent = "tez chcesz byc tacy jak oni...?"
     }
-    else if (haslo === "helga schneider"){
-        odpowiedz.textContent = ""
-    }
-    else if (haslo === "gunter schneider"){
-        odpowiedz.textContent = ""
-    }
     else if  (haslo === "mika stein"||haslo === "mika"){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
     }
