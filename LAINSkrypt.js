@@ -16,10 +16,13 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "helga schneider"){
         odpowiedz.textContent = ""
     }
+    else if (haslo === "gunter schneider"){
+        odpowiedz.textContent = ""
+    }
     else if  (haslo === "mika stein"||haslo === "mika"){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
     }
-    else if (haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
+    else if (haslo === "agnes"||haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
         odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoa ci sie prezent..."
     }
     else if (haslo === "alina sorge"){
@@ -31,7 +34,7 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "johann kruger"){
         odpowiedz.textContent = "dzieki tobie w koncu beda szczesliwi... pospiesz sie..."
     }
-    else if (haslo === "franz stein"){
+    else if (haslo === "franz"||haslo === "franz stein"){
         odpowiedz.textContent = "az mi cie czasem zal... stultus..."
     }
     else if (haslo === "rachel vogel"){
