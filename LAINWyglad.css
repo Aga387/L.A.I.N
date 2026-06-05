@@ -1,6 +1,7 @@
 body{
     background-image: url(LAINBackground.png);
     background-size: cover;
+    background-position: center;
     font-family: Jersey10, serif;
     h1 {
         text-align: center;
