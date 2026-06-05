@@ -9,7 +9,7 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "edith muller"){
         odpowiedz.textContent = "jak dlugo jeszcze chcesz to ciagnac...?"
-        }
+    }
     else if (haslo === "edmund james kelly"||haslo === "eddie"){
         odpowiedz.textContent = "tez chcesz byc tacy jak oni...?"
     }
@@ -21,6 +21,12 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "alina sorge"){
         odpowiedz.textContent = "jestes z siebie dumna...?"
+    }
+    else if (haslo === "helga schneider"){
+        odpowiedz.textContent = ""
+    }
+    else if (haslo === "gunter schneider"){
+        odpowiedz.textContent = ""
     }
     else if (haslo === "liliana sorge"){
         odpowiedz.textContent = "boli...? dobrze..."
@@ -69,6 +75,12 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "penis"){
         odpowiedz.textContent = "sa tu ludzie ktorym powinien odpasc..."
+    }
+    else if (haslo === "yaoi"){
+        odpowiedz.textContent = "szczerze...? nie chcialbym byc w waszej sytuacji... ale powodzenia... przyda wam sie..."
+    }
+    else if (haslo === "yuri"){
+        odpowiedz.textContent = "Rachel nie klamie... ale i tak kibicuje Yarze... Alina teraz nie bylaby zbyt dobrym wyborem..."
     }
     else{
         odpowiedz.textContent = "";
