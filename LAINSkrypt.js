@@ -11,7 +11,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "jak dlugo jeszcze chcesz to ciagnac...?"
     }
     else if (haslo === "edmund james kelly"||haslo === "eddie"){
-        odpowiedz.textContent = "tez chcesz byc tacy jak oni...?"
+        odpowiedz.textContent = "tez chcesz byc tacy jak oni...? nie zaslugujesz..."
     }
     else if  (haslo === "mika stein"||haslo === "mika"){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
@@ -19,8 +19,11 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "agnes"||haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
         odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoa ci sie prezent..."
     }
+    else if (haslo === "ingrid hoffman"){
+        odpowiedz.textContent = "ciesze sie ze wrocilas..."
+    }
     else if (haslo === "alina sorge"){
-        odpowiedz.textContent = "jestes z siebie dumna...?"
+        odpowiedz.textContent = "widzisz co im zrobilas...?"
     }
     else if (haslo === "helga schneider"){
         odpowiedz.textContent = ""
@@ -29,7 +32,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = ""
     }
     else if (haslo === "liliana sorge"){
-        odpowiedz.textContent = "boli...? dobrze..."
+        odpowiedz.textContent = "nic nie pamietasz... mozesz byc razem z nami..."
     }
     else if (haslo === "johann kruger"){
         odpowiedz.textContent = "dzieki tobie w koncu beda szczesliwi... pospiesz sie..."
@@ -38,7 +41,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "az mi cie czasem zal... stultus..."
     }
     else if (haslo === "rachel vogel"){
-        odpowiedz.textContent = "wybacz mi... ze cie okradli..."
+        odpowiedz.textContent = "milo cie znowu widziec..."
     }
     else if (haslo === "martha lindemann"){
         odpowiedz.textContent = "nie martw sie... juz jestes bezpieczna... pauper hedum..."
@@ -60,6 +63,9 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "serwerownia"){
         odpowiedz.textContent = "mitescere nunc... scio dolere..."
+    }
+    else if (haslo === "komisariat"){
+        odpowiedz.textContent = "czeka na ciebie... Samuel..."
     }
     else if (haslo === "las"){
         odpowiedz.textContent = "arbor inversa in silva est... et in ligno... solucionis..."
