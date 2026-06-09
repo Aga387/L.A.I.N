@@ -65,7 +65,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "mitescere nunc... scio dolere..."
     }
     else if (haslo === "komisariat"){
-        odpowiedz.textContent = "czeka na ciebie... Samuel..."
+        odpowiedz.textContent = "ona czeka na ciebie... Samuel..."
     }
     else if (haslo === "las"){
         odpowiedz.textContent = "arbor inversa in silva est... et in ligno... solucionis..."
