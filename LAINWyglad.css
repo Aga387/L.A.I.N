@@ -34,6 +34,10 @@ body{
         width: 600px;
         margin: 90 auto;
         align-content: center;
+        img{
+            height: 300px;
+            margin-top: -40px;
+        }
     }
     h4 {
         text-align: left;

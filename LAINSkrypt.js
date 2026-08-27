@@ -1,5 +1,7 @@
 const hasloTekst = document.getElementById('haslo');
 const odpowiedz = document.getElementById('odpowiedz');
+const tluscioch = document.getElementById('skibidi');
+tluscioch.style.display = "none";
 
 hasloTekst.addEventListener('input', function(){
     const haslo = hasloTekst.value.toLowerCase().trim();
@@ -88,7 +90,11 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "yuri"){
         odpowiedz.textContent = "Rachel nie klamie... ale i tak kibicuje Yarze... Alina teraz nie bylaby zbyt dobrym wyborem..."
     }
+    else if (haslo === "wielki tluscioch" || haslo === "#spoiler"){
+        tluscioch.style.display = "";
+    }
     else{
         odpowiedz.textContent = "";
+        tluscioch.style.display = "none";
     }
 });
