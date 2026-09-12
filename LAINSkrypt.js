@@ -24,6 +24,9 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "ingrid hoffman"){
         odpowiedz.textContent = "ciesze sie ze wrocilas..."
     }
+    else if (haslo === "wolfgang schneider"){
+        odpowiedz.textContent = "...i tak uwazam ze zaslugujesz na kogos lepszego..."
+    }
     else if (haslo === "alina sorge"){
         odpowiedz.textContent = "widzisz co im zrobilas...?"
     }
