@@ -19,7 +19,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
     }
     else if (haslo === "agnes"||haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
-        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoa ci sie prezent..."
+        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoba ci sie prezent..."
     }
     else if (haslo === "ingrid hoffman"){
         odpowiedz.textContent = "ciesze sie ze wrocilas..."
@@ -28,7 +28,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "...i tak uwazam ze zaslugujesz na kogos lepszego..."
     }
     else if (haslo === "alina sorge"){
-        odpowiedz.textContent = "widzisz co im zrobilas...?"
+        odpowiedz.textContent = "widzisz co jej zrobilas...?"
     }
     else if (haslo === "helga schneider"){
         odpowiedz.textContent = ""
@@ -91,7 +91,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "szczerze...? nie chcialbym byc w waszej sytuacji... ale powodzenia... przyda wam sie..."
     }
     else if (haslo === "yuri"){
-        odpowiedz.textContent = "Rachel nie klamie... ale i tak kibicuje Yarze... Alina teraz nie bylaby zbyt dobrym wyborem..."
+        odpowiedz.textContent = "ja wspieram ten dziwny polycule... jestem tolerancyjny..."
     }
     else if (haslo === "wielki tluscioch" || haslo === "#spoiler"){
         tluscioch.style.display = "";
