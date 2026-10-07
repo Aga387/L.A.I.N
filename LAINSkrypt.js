@@ -6,7 +6,7 @@ tluscioch.style.display = "none";
 hasloTekst.addEventListener('input', function(){
     const haslo = hasloTekst.value.toLowerCase().trim();
 
-    if (haslo === "hej"||haslo === "czesc"){
+        if (haslo === "hej"||haslo === "czesc"){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "edith muller"){
@@ -15,11 +15,11 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "edmund james kelly"||haslo === "eddie"){
         odpowiedz.textContent = "tez chcesz byc tacy jak oni...? nie zaslugujesz..."
     }
-    else if  (haslo === "mika stein"||haslo === "mika"){
+    else if  (haslo === "mika stein"){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
     }
-    else if (haslo === "agnes"||haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
-        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoba ci sie prezent..."
+    else if (haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
+        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoa ci sie prezent..."
     }
     else if (haslo === "ingrid hoffman"){
         odpowiedz.textContent = "ciesze sie ze wrocilas..."
@@ -28,16 +28,16 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "...i tak uwazam ze zaslugujesz na kogos lepszego..."
     }
     else if (haslo === "alina sorge"){
-        odpowiedz.textContent = "widzisz co jej zrobilas...?"
+        odpowiedz.textContent = "widzisz co im zrobilas...?"
+    }
+     else if (haslo === "liliana sorge"){
+        odpowiedz.textContent = "nic nie pamietasz... mozesz byc razem z nami..."
     }
     else if (haslo === "helga schneider"){
         odpowiedz.textContent = ""
     }
     else if (haslo === "gunter schneider"){
         odpowiedz.textContent = ""
-    }
-    else if (haslo === "liliana sorge"){
-        odpowiedz.textContent = "nic nie pamietasz... mozesz byc razem z nami..."
     }
     else if (haslo === "johann kruger"){
         odpowiedz.textContent = "dzieki tobie w koncu beda szczesliwi... pospiesz sie..."
@@ -91,7 +91,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "szczerze...? nie chcialbym byc w waszej sytuacji... ale powodzenia... przyda wam sie..."
     }
     else if (haslo === "yuri"){
-        odpowiedz.textContent = "ja wspieram ten dziwny polycule... jestem tolerancyjny..."
+        odpowiedz.textContent = "Rachel nie klamie... ale i tak kibicuje Yarze... Alina teraz nie bylaby zbyt dobrym wyborem..."
     }
     else if (haslo === "wielki tluscioch" || haslo === "#spoiler"){
         tluscioch.style.display = "";
