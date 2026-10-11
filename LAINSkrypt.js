@@ -34,7 +34,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "nic nie pamietasz... mozesz byc razem z nami..."
     }
     else if (haslo === "helga schneider"){
-        odpowiedz.textContent = ""
+        odpowiedz.textContent = "kochana siostra... szuka braciszka... sine me adiuvare..."
     }
     else if (haslo === "gunter schneider"){
         odpowiedz.textContent = ""
