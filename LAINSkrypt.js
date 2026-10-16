@@ -10,7 +10,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "boli..."
+        odpowiedz.textContent = "ostatnio jest coraz mniej nudno..."
     }
     else if (haslo === "ladna dzis pogoda"){
         odpowiedz.textContent = "zalezy dla kogo..."
