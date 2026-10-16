@@ -6,8 +6,17 @@ tluscioch.style.display = "none";
 hasloTekst.addEventListener('input', function(){
     const haslo = hasloTekst.value.toLowerCase().trim();
 
-        if (haslo === "hej"||haslo === "czesc"){
+    if (haslo === "hej"||haslo === "czesc"){
         odpowiedz.textContent = "hej..."
+    }
+    else if (haslo === "co u ciebie?"||haslo === "co tam?"){
+        odpowiedz.textContent = "boli..."
+    }
+    else if (haslo === "ladna dzis pogoda"){
+        odpowiedz.textContent = "zalezy dla kogo..."
+    }
+    else if (haslo === "pomoz nam"){
+        odpowiedz.textContent = "przeciez to robie..."
     }
     else if (haslo === "edith muller"){
         odpowiedz.textContent = "jak dlugo jeszcze chcesz to ciagnac...?"
@@ -19,7 +28,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
     }
     else if (haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
-        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoa ci sie prezent..."
+        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoba ci sie prezent..."
     }
     else if (haslo === "ingrid hoffman"){
         odpowiedz.textContent = "ciesze sie ze wrocilas..."
@@ -33,11 +42,11 @@ hasloTekst.addEventListener('input', function(){
      else if (haslo === "liliana sorge"){
         odpowiedz.textContent = "nic nie pamietasz... mozesz byc razem z nami..."
     }
+    else if (haslo === "arnold shluter"){
+        odpowiedz.textContent = "...czy wiesz gdzie jest twoja siostra...?"
+    }
     else if (haslo === "helga schneider"){
         odpowiedz.textContent = "kochana siostra... szuka braciszka... sine me adiuvare..."
-    }
-    else if (haslo === "gunter schneider"){
-        odpowiedz.textContent = ""
     }
     else if (haslo === "johann kruger"){
         odpowiedz.textContent = "dzieki tobie w koncu beda szczesliwi... pospiesz sie..."
@@ -58,28 +67,43 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "juz spokojnie... mozesz spac pod lozkiem..."
     }
     else if (haslo === "policja"){
-        odpowiedz.textContent = "miseret me tibi... sed non mihi est eligere... habet ut stipendium..."
+        odpowiedz.textContent = "Miseret me tibi... Sed non mihi est eligere... Hoc in stipendium accipio..."
     }
     else if (haslo === "naukowcy"){
-        odpowiedz.textContent = "fruere... mors veniet... sive vis sive non..."
+        odpowiedz.textContent = "Fruere... Mors veniet... Sive vis sive non..."
     }
     else if (haslo === "narkotyki"){
-        odpowiedz.textContent = "Putasne vere id adiuturum esse...? adhuc eos dolet..."
+        odpowiedz.textContent = "Putasne vere id adiuturum esse...? Adhuc eos dolet..."
     }
     else if (haslo === "serwerownia"){
-        odpowiedz.textContent = "mitescere nunc... scio dolere..."
+        odpowiedz.textContent = "Nunc bene est... Scio dolere..."
     }
     else if (haslo === "komisariat"){
         odpowiedz.textContent = "ona czeka na ciebie... Samuel..."
     }
     else if (haslo === "las"){
-        odpowiedz.textContent = "arbor inversa in silva est... et in ligno... solucionis..."
+        odpowiedz.textContent = "Arbor inversa in silva est... Et in ligno... Solucionis..."
+    }
+    else if (haslo === "drzewo"){
+        odpowiedz.textContent = "Interdum et ego esurio..."
+    }
+    else if (haslo === "wypadek"||haslo === "ewakuacja"||haslo === "wyciek gazu"){
+        odpowiedz.textContent = "Aliquid mihi faciendum erat... Eos pati videre non poteram..."
     }
     else if (haslo === "ewikgeisstadt"){
         odpowiedz.textContent = "miasto wiecznosci...? co za ironia..."
     }
+    else if (haslo === "leben technologies"){
+        odpowiedz.textContent = "mamy trudne relacje..."
+    }
     else if (haslo === "lain"||haslo === "l.a.i.n"){
-        odpowiedz.textContent = "to... ja...?"
+        odpowiedz.textContent = "dlugo im to zajelo..."
+    }
+    else if (haslo === "menel"){
+        odpowiedz.textContent = "ktory...? bo w tym momencie jest ich tutaj trzech..."
+    }
+    else if (haslo === "wielki brat patrzy"){
+        odpowiedz.textContent = "< .<"
     }
     else if (haslo === "cycki"){
         odpowiedz.textContent = "niektorzy ludzie je maja... i to jest okej..."
@@ -92,6 +116,12 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "yuri"){
         odpowiedz.textContent = "Rachel nie klamie... ale i tak kibicuje Yarze... Alina teraz nie bylaby zbyt dobrym wyborem..."
+    }
+    else if (haslo === "sex?"){
+        odpowiedz.textContent = "co...?"
+    }
+    else if (haslo === "jestes gejem?"||haslo === "jestes lesbijka?"){
+        odpowiedz.textContent = "o czym ty mowisz...?"
     }
     else if (haslo === "wielki tluscioch" || haslo === "#spoiler"){
         tluscioch.style.display = "";
