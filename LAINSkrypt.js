@@ -10,7 +10,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "ostatnio jest coraz mniej nudno..."
+        odpowiedz.textContent = "eh... glodny jestem..."
     }
     else if (haslo === "ladna dzis pogoda"){
         odpowiedz.textContent = "zalezy dla kogo..."
@@ -34,13 +34,13 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "ciesze sie ze wrocilas..."
     }
     else if (haslo === "wolfgang schneider"){
-        odpowiedz.textContent = "...i tak uwazam ze zaslugujesz na kogos lepszego..."
+        odpowiedz.textContent = "ciesze sie ze polubiles sie z mika..."
     }
     else if (haslo === "alina sorge"){
         odpowiedz.textContent = "widzisz co im zrobilas...?"
     }
      else if (haslo === "liliana sorge"){
-        odpowiedz.textContent = "nic nie pamietasz... mozesz byc razem z nami..."
+        odpowiedz.textContent = "pomoge ci... obiecuje..."
     }
     else if (haslo === "arnold shluter"){
         odpowiedz.textContent = "...czy wiesz gdzie jest twoja siostra...?"
@@ -82,10 +82,10 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "ona czeka na ciebie... Samuel..."
     }
     else if (haslo === "las"){
-        odpowiedz.textContent = "Arbor inversa in silva est... Et in ligno... Solucionis..."
+        odpowiedz.textContent = "Interdum et ego esurio..."
     }
     else if (haslo === "drzewo"){
-        odpowiedz.textContent = "Interdum et ego esurio..."
+        odpowiedz.textContent = "Ignosce mihi... te terrere nolui..."
     }
     else if (haslo === "wypadek"||haslo === "ewakuacja"||haslo === "wyciek gazu"){
         odpowiedz.textContent = "Aliquid mihi faciendum erat... Eos pati videre non poteram..."
