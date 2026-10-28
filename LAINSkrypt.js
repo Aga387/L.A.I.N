@@ -10,7 +10,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "eh... glodny jestem..."
+        odpowiedz.textContent = "wyprawa do Leben Technologies brzmi ciekawie..."
     }
     else if (haslo === "ladna dzis pogoda"){
         odpowiedz.textContent = "zalezy dla kogo..."
@@ -106,22 +106,37 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "< .<"
     }
     else if (haslo === "cycki"){
-        odpowiedz.textContent = "niektorzy ludzie je maja... i to jest okej..."
+        odpowiedz.textContent = "sa jakby okej..."
     }
     else if (haslo === "penis"){
-        odpowiedz.textContent = "sa tu ludzie ktorym powinien odpasc..."
+        odpowiedz.textContent = "penis... ha ha ha..."
     }
     else if (haslo === "yaoi"){
-        odpowiedz.textContent = "szczerze...? nie chcialbym byc w waszej sytuacji... ale powodzenia... przyda wam sie..."
+        odpowiedz.textContent = "ja jestem tolerancyjny..."
     }
     else if (haslo === "yuri"){
-        odpowiedz.textContent = "Rachel nie klamie... ale i tak kibicuje Yarze... Alina teraz nie bylaby zbyt dobrym wyborem..."
+        odpowiedz.textContent = "kobiet tez nie dyskryminuje..."
     }
     else if (haslo === "sex?"){
         odpowiedz.textContent = "co...?"
     }
     else if (haslo === "jestes gejem?"||haslo === "jestes lesbijka?"){
-        odpowiedz.textContent = "o czym ty mowisz...?"
+        odpowiedz.textContent = "ale ty wiesz ze nie jestem czlowiekiem...? prawda...??"
+    }
+    else if (haslo === "ralina"){
+        odpowiedz.textContent = "tkwienie w toksycznym zwiazku moze miec bardzo zle konsekwencje..."
+    }
+    else if (haslo === "samgang"){
+        odpowiedz.textContent = "to postawi was obu przed wyborami ktore moga byc trudne..."
+    }
+    else if (haslo === "inchel"){
+        odpowiedz.textContent = "macie wiecej wspolnego niz wam sie moze wydawac..."
+    }
+    else if (haslo === "yarchel"){
+        odpowiedz.textContent = "wybacz... ale na to juz troche za pozno..."
+    }
+    else if (haslo === "migang"){
+        odpowiedz.textContent = "ciesze sie ze dogadujesz sie z mika..."
     }
     else if (haslo === "wielki tluscioch" || haslo === "#spoiler"){
         tluscioch.style.display = "";
