@@ -58,7 +58,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "az mi cie czasem zal... stultus..."
     }
     else if (haslo === "Anton Fischer"){
-        odpowiedz.textContent = ""
+        odpowiedz.textContent = "szkoda tylko ze ci za to nie placi..."
     }
     else if (haslo === "rachel vogel"){
         odpowiedz.textContent = "milo cie znowu widziec..."
@@ -71,6 +71,9 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "clara brant"){
         odpowiedz.textContent = "juz spokojnie... mozesz spac pod lozkiem..."
+    }
+    else if (haslo === "Fred Backer"){
+        odpowiedz.textContent = "w koncu mi sie do czegos przydasz..."
     }
     else if (haslo === "policja"){
         odpowiedz.textContent = "Miseret me tibi... Sed non mihi est eligere... Hoc in stipendium accipio..."
