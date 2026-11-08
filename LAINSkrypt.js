@@ -12,6 +12,9 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
         odpowiedz.textContent = "wyprawa do Leben Technologies brzmi ciekawie..."
     }
+    else if (haslo === "zle ci z oczu patrzy"){
+        odpowiedz.textContent = "mam zabojczo przystojne spojrzenie..."
+    }
     else if (haslo === "ladna dzis pogoda"){
         odpowiedz.textContent = "zalezy dla kogo..."
     }
@@ -53,6 +56,9 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "franz"||haslo === "franz stein"){
         odpowiedz.textContent = "az mi cie czasem zal... stultus..."
+    }
+    else if (haslo === "Anton Fischer"){
+        odpowiedz.textContent = ""
     }
     else if (haslo === "rachel vogel"){
         odpowiedz.textContent = "milo cie znowu widziec..."
@@ -122,6 +128,9 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "jestes gejem?"||haslo === "jestes lesbijka?"){
         odpowiedz.textContent = "ale ty wiesz ze nie jestem czlowiekiem...? prawda...??"
+    }
+    else if (haslo === "sentient meat pile"){
+        odpowiedz.textContent = "smacznego... :)"
     }
     else if (haslo === "ralina"){
         odpowiedz.textContent = "tkwienie w toksycznym zwiazku moze miec bardzo zle konsekwencje..."
