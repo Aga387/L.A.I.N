@@ -132,6 +132,8 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "sentient meat pile"){
         odpowiedz.textContent = "smacznego... :)"
     }
+    else if (haslo === "#stopkanibalizmowi")
+        odpowiedz.textContent = ":("
     else if (haslo === "ralina"){
         odpowiedz.textContent = "tkwienie w toksycznym zwiazku moze miec bardzo zle konsekwencje..."
     }
