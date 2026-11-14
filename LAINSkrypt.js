@@ -10,7 +10,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "wyprawa do Leben Technologies brzmi ciekawie..."
+        odpowiedz.textContent = "mam ostatnio starsznie duzo pracy..."
     }
     else if (haslo === "zle ci z oczu patrzy"){
         odpowiedz.textContent = "mam zabojczo przystojne spojrzenie..."
@@ -57,7 +57,7 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "franz"||haslo === "franz stein"){
         odpowiedz.textContent = "az mi cie czasem zal... stultus..."
     }
-    else if (haslo === "Anton Fischer"){
+    else if (haslo === "anton fischer"){
         odpowiedz.textContent = "szkoda tylko ze ci za to nie placi..."
     }
     else if (haslo === "rachel vogel"){
@@ -72,8 +72,11 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "clara brant"){
         odpowiedz.textContent = "juz spokojnie... mozesz spac pod lozkiem..."
     }
-    else if (haslo === "Fred Backer"){
+    else if (haslo === "fred backer"){
         odpowiedz.textContent = "w koncu mi sie do czegos przydasz..."
+    }
+    else if (haslo === "anika herrmann"||haslo === "jorg meier"||haslo === "erik neumann"||haslo === "karoline weber"||haslo === "berthold dietrich"||haslo === "lotte koch"||haslo === "sigrid kohler"||haslo === "jule kraus"||haslo === "theo kuhn"){
+        odpowiedz.textContent = "prosili bym podziekowal Ingrid i Wolfgangowi za pomoc..."
     }
     else if (haslo === "policja"){
         odpowiedz.textContent = "Miseret me tibi... Sed non mihi est eligere... Hoc in stipendium accipio..."
