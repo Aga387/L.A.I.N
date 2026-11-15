@@ -1,7 +1,11 @@
 const hasloTekst = document.getElementById('haslo');
 const odpowiedz = document.getElementById('odpowiedz');
 const tluscioch = document.getElementById('skibidi');
+const megaTluscioch = document.getElementById('toilet');
+const samgang = document.getElementById('geje');
 tluscioch.style.display = "none";
+megaTluscioch.style.display = "none";
+samgang.style.display = "none";
 
 hasloTekst.addEventListener('input', function(){
     const haslo = hasloTekst.value.toLowerCase().trim();
@@ -156,11 +160,19 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "migang"){
         odpowiedz.textContent = "ciesze sie ze dogadujesz sie z mika..."
     }
+    else if (haslo === "buziaczek"){
+        samgang.style.display = "";
+    }
     else if (haslo === "wielki tluscioch" || haslo === "#spoiler"){
         tluscioch.style.display = "";
     }
+    else if (haslo === "mega tluscioch" || haslo === "#megaspoiler"){
+        megaTluscioch.style.display = "";
+    }
     else{
         odpowiedz.textContent = "";
+        samgang.style.display = "none";
         tluscioch.style.display = "none";
+        megaTluscioch.style.display = "none";
     }
 });

@@ -34,7 +34,15 @@ body{
         width: 600px;
         margin: 90 auto;
         align-content: center;
-        img{
+        #skibidi{
+            height: 300px;
+            margin-top: -40px;
+        }
+        #toilet{
+            height: 300px;
+            margin-top: -40px;
+        }
+        #geje{
             height: 300px;
             margin-top: -40px;
         }
