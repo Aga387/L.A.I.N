@@ -14,7 +14,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "mam ostatnio starsznie duzo pracy..."
+        odpowiedz.textContent = "mam ostatnio strasznie duzo pracy..."
     }
     else if (haslo === "zle ci z oczu patrzy"){
         odpowiedz.textContent = "mam zabojczo przystojne spojrzenie..."
