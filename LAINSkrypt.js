@@ -14,7 +14,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "normalnie mowi sie 'wow dobra robota' jak ktos pokazuje cos nad czym ciezko pracowal... nie 'o boze co ty jej zrobiles'..."
+        odpowiedz.textContent = "normalnie mowi sie 'wow dobra robota' jak ktos pokazuje cos nad czym ciezko pracowal... nie 'o boze co ty jej zrobiles!?'..."
     }
     else if (haslo === "zle ci z oczu patrzy"){
         odpowiedz.textContent = "mam zabojczo przystojne spojrzenie..."
@@ -65,7 +65,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "szkoda tylko ze ci za to nie placi..."
     }
     else if (haslo === "rachel vogel"){
-        odpowiedz.textContent = "troche glupio wyszlo z Yara... he he...\n(to nerwowy smiech...)"
+        odpowiedz.textContent = "troche glupio wyszlo z Yara... he he...(to nerwowy smiech...)"
     }
     else if (haslo === "martha lindemann"){
         odpowiedz.textContent = "nie martw sie... juz jestes bezpieczna... pauper hedum..."
@@ -162,6 +162,12 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "migang"){
         odpowiedz.textContent = "ciesze sie ze dogadujesz sie z mika..."
+    }
+    else if (haslo === "kogo shipujesz?"){
+        odpowiedz.textContent = "ja nie lubie plywac lodzia... nie wiedziec czemu zawsze sie topia kiedy na nie wsiadam..."
+    }
+    else if (haslo === "samgang czy migang?"){
+        odpowiedz.textContent = "generalnie jestem za wolnoscia slowa... ale jezeli skrzywdzisz Mike to mozesz wybierac pomiedzy komisariatem i serwerownia..."
     }
     else if (haslo === "buziaczek"){
         samgang.style.display = "";
