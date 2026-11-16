@@ -14,7 +14,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "hej..."
     }
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
-        odpowiedz.textContent = "mam ostatnio strasznie duzo pracy..."
+        odpowiedz.textContent = "normalnie mowi sie 'wow dobra robota' jak ktos pokazuje cos nad czym ciezko pracowal... nie 'o boze co ty jej zrobiles'..."
     }
     else if (haslo === "zle ci z oczu patrzy"){
         odpowiedz.textContent = "mam zabojczo przystojne spojrzenie..."
@@ -29,22 +29,22 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "jak dlugo jeszcze chcesz to ciagnac...?"
     }
     else if (haslo === "edmund james kelly"||haslo === "eddie"){
-        odpowiedz.textContent = "tez chcesz byc tacy jak oni...? nie zaslugujesz..."
+        odpowiedz.textContent = "naprawde nie chce mi sie ciebie ratowac..."
     }
     else if  (haslo === "mika stein"){
         odpowiedz.textContent = "biedne dziecko... sed nunc bene est..."
     }
     else if (haslo === "agnes hoffman"||haslo === "agnes hoffman schulz"){
-        odpowiedz.textContent = "naprawde ladna z ciebie dziewczynka... mam nadzieje ze spodoba ci sie prezent..."
+        odpowiedz.textContent = "milo mi ze podoba ci sie prezent od Miki..."
     }
     else if (haslo === "ingrid hoffman"){
-        odpowiedz.textContent = "ciesze sie ze wrocilas..."
+        odpowiedz.textContent = "teraz przyszla kolej na ciebie..."
     }
     else if (haslo === "wolfgang schneider"){
         odpowiedz.textContent = "ciesze sie ze polubiles sie z mika..."
     }
     else if (haslo === "alina sorge"){
-        odpowiedz.textContent = "widzisz co im zrobilas...?"
+        odpowiedz.textContent = "nie wciagaj mnie w klotnie z twoja druga osobowoscia ok...?"
     }
      else if (haslo === "liliana sorge"){
         odpowiedz.textContent = "pomoge ci... obiecuje..."
@@ -59,13 +59,13 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "dzieki tobie w koncu beda szczesliwi... pospiesz sie..."
     }
     else if (haslo === "franz"||haslo === "franz stein"){
-        odpowiedz.textContent = "az mi cie czasem zal... stultus..."
+        odpowiedz.textContent = "to z litosci... w wiekszosci..."
     }
     else if (haslo === "anton fischer"){
         odpowiedz.textContent = "szkoda tylko ze ci za to nie placi..."
     }
     else if (haslo === "rachel vogel"){
-        odpowiedz.textContent = "milo cie znowu widziec..."
+        odpowiedz.textContent = "troche glupio wyszlo z Yara... he he...\n(to nerwowy smiech...)"
     }
     else if (haslo === "martha lindemann"){
         odpowiedz.textContent = "nie martw sie... juz jestes bezpieczna... pauper hedum..."
@@ -156,6 +156,9 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "yarchel"){
         odpowiedz.textContent = "wybacz... ale na to juz troche za pozno..."
+    }
+    else if (haslo === "ingang"){
+        odpowiedz.textContent = "bycie w gangu nie jest fajne..."
     }
     else if (haslo === "migang"){
         odpowiedz.textContent = "ciesze sie ze dogadujesz sie z mika..."
