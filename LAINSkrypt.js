@@ -16,6 +16,9 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "co u ciebie?"||haslo === "co tam?"){
         odpowiedz.textContent = "normalnie mowi sie 'wow dobra robota' jak ktos pokazuje cos nad czym ciezko pracowal... nie 'o boze co ty jej zrobiles!?'..."
     }
+    else if (haslo === "opowiedz mi zart"){
+        odpowiedz.innerText = "puk puk...\nkto tam...?\ndrzewo...\nha ha ha..."
+    }
     else if (haslo === "zle ci z oczu patrzy"){
         odpowiedz.textContent = "mam zabojczo przystojne spojrzenie..."
     }
@@ -65,7 +68,7 @@ hasloTekst.addEventListener('input', function(){
         odpowiedz.textContent = "szkoda tylko ze ci za to nie placi..."
     }
     else if (haslo === "rachel vogel"){
-        odpowiedz.textContent = "troche glupio wyszlo z Yara... he he...(to nerwowy smiech...)"
+        odpowiedz.innerText = "troche glupio wyszlo z Yara... he he...\n(to nerwowy smiech...)"
     }
     else if (haslo === "martha lindemann"){
         odpowiedz.textContent = "nie martw sie... juz jestes bezpieczna... pauper hedum..."
@@ -168,6 +171,51 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "samgang czy migang?"){
         odpowiedz.textContent = "generalnie jestem za wolnoscia slowa... ale jezeli skrzywdzisz Mike to mozesz wybierac pomiedzy komisariatem i serwerownia..."
+    }
+    else if (haslo === "czy lubisz wolfganga?"){
+        odpowiedz.textContent = "9/10"
+    }
+    else if (haslo === "czy lubisz aline?"){
+        odpowiedz.textContent = "3/10"
+    }
+    else if (haslo === "czy lubisz liliane?"){
+        odpowiedz.textContent = "8/10"
+    }
+    else if (haslo === "czy lubisz rachel?"){
+        odpowiedz.textContent = "8/10"
+    }
+    else if (haslo === "czy lubisz samuela?"){
+        odpowiedz.textContent = "9/10"
+    }
+    else if (haslo === "czy lubisz ingrid?"){
+        odpowiedz.textContent = "9/10"
+    }
+    else if (haslo === "czy lubisz arnolda?"){
+        odpowiedz.textContent = "3/10"
+    }
+    else if (haslo === "czy lubisz yare?"){
+        odpowiedz.textContent = "6/10"
+    }
+    else if (haslo === "czy lubisz mike?"){
+        odpowiedz.textContent = "100/10"
+    }
+    else if (haslo === "czy lubisz clare?"){
+        odpowiedz.textContent = "100/10"
+    }
+    else if (haslo === "czy lubisz serwerownie?"){
+        odpowiedz.textContent = "100/10"
+    }
+    else if (haslo === "czy lubisz marthe?"){
+        odpowiedz.textContent = "100/10"
+    }
+    else if (haslo === "czy lubisz edith?"){
+        odpowiedz.textContent = "-100/10"
+    }
+    else if (haslo === "czy lubisz franza?"){
+        odpowiedz.textContent = "2/10"
+    }
+    else if (haslo === "czy lubisz johanna?"){
+        odpowiedz.textContent = "4/10"
     }
     else if (haslo === "buziaczek"){
         samgang.style.display = "";
