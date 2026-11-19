@@ -28,6 +28,9 @@ hasloTekst.addEventListener('input', function(){
     else if (haslo === "pomoz nam"){
         odpowiedz.textContent = "przeciez to robie..."
     }
+    else if (haslo === "pa"||haslo === "oki to pa"){
+        odpowiedz.textContent = "no chyba nie..."
+    }
     else if (haslo === "edith muller"){
         odpowiedz.textContent = "jak dlugo jeszcze chcesz to ciagnac...?"
     }
@@ -216,6 +219,9 @@ hasloTekst.addEventListener('input', function(){
     }
     else if (haslo === "czy lubisz johanna?"){
         odpowiedz.textContent = "4/10"
+    }
+    else if (haslo === "kogo lubisz najbardziej?"){
+        odpowiedz.innerText = "nie mam faworytow... to nie mile i nie sprawiedliwe...\n\nMike..."
     }
     else if (haslo === "buziaczek"){
         samgang.style.display = "";
